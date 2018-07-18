@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_PATH=./ cucumber-js src/** --format=node_modules/cucumber-pretty",
-    "test:bail": "NODE_PATH=./ npm test -- --fail-fast",
-    "test:watch": "NODE_PATH=./ watch \"npm run test:bail\" src"
+    "test": "NODE_PATH=./ cucumber-js src/** --fail-fast",
+    "test:watch": "NODE_PATH=./ watch \"npm test\" src"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +13,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "cucumber": "^4.2.1",
-    "cucumber-pretty": "^1.4.4",
     "watch": "^1.0.2"
   }
 }
