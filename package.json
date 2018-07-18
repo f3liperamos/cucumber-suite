@@ -1,0 +1,19 @@
+{
+  "name": "cucumber-suit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=./ cucumber-js src/**",
+    "test:bail": "NODE_PATH=./ cucumber-js src/**/*.feature --fail-fast",
+    "test:watch": "NODE_PATH=./ watch \"npm test\" src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "watch": "^1.0.2"
+  }
+}
