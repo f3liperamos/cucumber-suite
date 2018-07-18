@@ -1,8 +1,13 @@
+# What the hell is that?
++ [Introduction to cucumber](https://docs.cucumber.io/guides/overview/)
+
+## Code
+
 + [Gherkin feature](src/mailReader/mailReader.feature)
 
 + [Cucumber Test](src/mailReader/mailReader.steps.js)
 
-+ [MailReader function](src/mailReader/mailReader.js)
++ [MailReader](src/mailReader/mailReader.js)
 
 
 # Clone and modify
