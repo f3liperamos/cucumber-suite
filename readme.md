@@ -12,11 +12,11 @@
 ## Output examples
 
 + Fail
-[Fail Test Output Example GIF](TestFail.gif)
+![Fail Test Output Example GIF](TestFail.gif)
 
 
 + Success
-[Success Test Output Example GIF](TestSuccess.gif)
+![Success Test Output Example GIF](TestSuccess.gif)
 
 # Do it yourself
 > $ git clone https://github.com/f3liperamos/cucumber-suite.git && cd cucumber-suite
