@@ -12,7 +12,7 @@ Feature: Example
     Then I should have <left> unread mails
 
     Examples:
-    | unread | read | left |
-    |     10 |    2 |    8 |
-    |      8 |    5 |    3 |
-    |      3 |    5 |    0 |
+      | unread | read | left |
+      |     10 |    2 |    8 |
+      |      8 |    5 |    3 |
+      |      3 |    5 |    0 |
