@@ -1,5 +1,5 @@
-+ [Gherkin feature](src/mailReader.feature)
++ [Gherkin feature](src/mailReader/mailReader.feature)
 
-+ [Cucumber Test](src/mailReader.steps.js)
++ [Cucumber Test](src/mailReader/mailReader.steps.js)
 
-+ [MailReader function](src/mailReader.js)
++ [MailReader function](src/mailReader/mailReader.js)
