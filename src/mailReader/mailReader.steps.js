@@ -1,6 +1,6 @@
 // features/support/steps.js
 const { Given, When, Then } = require('cucumber')
-const { expect } = require('chai')
+const assert = require('assert')
 
 const MailReader = require('./mailReader')
 
@@ -13,7 +13,7 @@ When('I read a mail', function () {
 });
 
 Then('I should have no mails left', function () {
-  expect(this.mailReader.unreadMails).to.equal(0)
+  assert.equal(this.mailReader.unreadMails, 0)
 });
 
 Given('I have {int} unread mails', function (unread) {
@@ -25,5 +25,5 @@ When('I read {int} mails', function (int) {
 });
 
 Then('I should have {int} unread mails', function (unreadMailsLeft) {
-  expect(this.mailReader.unreadMails).to.equal(unreadMailsLeft)
+  assert.equal(this.mailReader.unreadMails, unreadMailsLeft)
 });
